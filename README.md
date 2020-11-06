@@ -1,4 +1,4 @@
-# SQL-stuff
+# SQL Stuff
 This repo is a random collection of SQL related scripts and helper files.
 Most contain just the SQL queries, many have a bit more, as below.
 
