@@ -14,4 +14,4 @@ In the files you'll see reference to:
 
 ## What's in the repo?
 * [Coalesce](https://github.com/MarkCBJSS/SQL-stuff/blob/main/sql-coalesce-example.sql) - Returns the first non null value in a list
-* [Auto Increment](https://github.com/MarkCBJSS/SQL-stuff/blob/main/sql-auto-increment.sql) - Auto incremement a value
+* [Auto Increment](https://github.com/MarkCBJSS/SQL-stuff/blob/main/sql-auto-increment-example.sql) - Auto incremement a value
