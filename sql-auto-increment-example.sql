@@ -9,7 +9,7 @@
 -- Data Langugage References
 -- (DDL) Data Definition Language - create, drop, rename, alter
 -- (DML) Data Manipulation Language - insert, update, delete
--- (Query) Interrogating the database to get specific data sets returned
+-- (DQL) Data Query Language - select
 -- ---------------------------------------------------------------------
 
 -- (DDL) (SET-UP) Create a database called Publications
@@ -46,14 +46,14 @@ VALUES
     'A long body of text such as the third chapter of an article'
   );
 
--- (Query) Select all data from the table and note that the Id column is auto incremented
+-- (DQL) Select all data from the table and note that the Id column is auto incremented
 SELECT * FROM Publications;
 
 -- (DDL) Remove a row from the table where its Id is 2
 DELETE FROM Publications
 WHERE id = 2;
 
--- (Query) Select all data from the table and note the column with Id of 2 is removed
+-- (DQL) Select all data from the table and note the column with Id of 2 is removed
 -- There is no re-numbering of the column Id, they remain as when created
 SELECT * FROM Publications;
 
@@ -68,7 +68,7 @@ VALUES
     'A long body of text such as the fourth chapter of an article'
   );
   
--- (Query) Select all data from the table and note the Id for the fourth row is added
+-- (DQL) Select all data from the table and note the Id for the fourth row is added
 SELECT * FROM Publications;
 
 -- ------------------------------------
