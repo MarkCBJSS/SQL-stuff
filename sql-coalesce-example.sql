@@ -8,6 +8,7 @@
 -- Data Langugage References
 -- (DDL) Data Definition Language - create, drop, rename, alter
 -- (DML) Data Manipulation Language - insert, update, delete
+-- (DQL) Data Query Language - select
 -- ---------------------------------------------------------------------
 
 -- (DDL) (SET-UP) Create a database called Publications
@@ -48,10 +49,10 @@ VALUES
     'Third article description that is quite long'
   );
   
--- (QUERY) Select all data from the table and check the NULL values exist in the excerpt column
+-- (DQL) Select all data from the table and check the NULL values exist in the excerpt column
 SELECT * FROM Publications;
   
--- (QUERY) Now do a COALESCE on the excerpt and body text to populate NULL values in the excerpt column
+-- (DQL) Now do a COALESCE on the excerpt and body text to populate NULL values in the excerpt column
 SELECT
   id,
   title AS Title,
@@ -63,10 +64,10 @@ FROM
 -- In the results we can see the copy from the body column has been coalesced into the NULL value columns
 -- of the Exceprt column.
 
--- (QUERY) Select all data again to prove the table data has not been modified
+-- (DQL) Select all data again to prove the table data has not been modified
 SELECT * FROM Publications;
   
--- (QUERY) We can also substitute null values for some similar value
+-- (DQL) We can also substitute null values for some similar value
 SELECT
   id,
   title AS Title,
