@@ -47,7 +47,7 @@ from
 where t2.gender = 'M'
   and t1.to_date not in ('9999-01-01');
   
--- With the above in place we can do the same for Famale(F)
+-- With the above in place we can do the same for Female(F)
 -- A union will bring both results sets together
 select
   concat("£",format(max(salary), 2)) as 'Max Salary',
@@ -83,5 +83,5 @@ where t2.gender = 'F'
 
 -- Final reasults set
 -- Max Salary	   Avg. Salary	Min. Salary	 No. of Salaries	Gender
--- £157,821.00	 £63,081.13	  £38,735.00	 1,562,207.00	    M
--- £151,080.00	 £63,014.40	  £38,786.00	 1,041,716.00	    F
+-- £157,821.00	 £63,081.13	  £38,735.00	 1,562,207.00	       M
+-- £151,080.00	 £63,014.40	  £38,786.00	 1,041,716.00	       F
