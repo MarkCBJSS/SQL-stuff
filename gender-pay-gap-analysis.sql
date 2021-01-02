@@ -82,6 +82,6 @@ where t2.gender = 'F'
   and t1.to_date not in ('9999-01-01');
 
 -- Final reasults set
--- Max Salary	   Avg. Salary	Min. Salary	 No. of Salaries	Gender
--- £157,821.00	 £63,081.13	  £38,735.00	 1,562,207.00	       M
--- £151,080.00	 £63,014.40	  £38,786.00	 1,041,716.00	       F
+-- Max Salary	   Avg. Salary	Min. Salary	 No. of Salaries    Gender
+-- £157,821.00	 £63,081.13	  £38,735.00	 1,562,207.00	    M
+-- £151,080.00	 £63,014.40	  £38,786.00	 1,041,716.00	    F
