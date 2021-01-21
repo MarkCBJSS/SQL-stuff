@@ -37,41 +37,11 @@ create table department (
 insert into
 	employee (emp_name, designation, salary, role_id, dept_no)
 values
-	(
-      'Jones',
-      'Salesman',
-      7000,
-      2,
-      10
-    ),
-	(
-      'Salter',
-      'Manager',
-      17000,
-      3,
-      10
-    ),
-	(
-      'Cordoba',
-      'President',
-      40000,
-      NULL,
-      30
-    ),
-	(
-      'Furedi',
-      'Clerk',
-      5000,
-      5,
-      20
-    ),
-	(
-      'Upadhyaya',
-      'Manager',
-      20000,
-      3,
-      20
-    );
+	('Jones', 'Salesman', 7000, 2, 10),
+	('Salter', 'Manager', 17000, 3, 10),
+	('Cordoba', 'President', 40000, NULL, 30),
+	('Furedi', 'Clerk', 5000, 5, 20),
+	('Upadhyaya', 'Manager', 20000, 3, 20);
 
 -- Insert data into the department table
 insert into
