@@ -10,6 +10,8 @@
 
 -- ---------------------------------------------------------
 
+-- Query 1: Find the Manager with the highest salary
+
 -- Nested Query 1
 -- The main query would return both managers (Salter and Upadhyaya)
 -- The sub query then returns only the details of the manager with the max salary
