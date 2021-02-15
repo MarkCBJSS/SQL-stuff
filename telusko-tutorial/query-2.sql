@@ -18,7 +18,7 @@ from employee
 where designation = 'Clerk'
 	and salary = 5000;
 
--- Nested sub-query
+-- Nested sub-query (though the answer is found via the sub query)
 select emp_no as 'Employee No.', emp_name as 'Employee Name'
 from employee
 where (designation, salary) in (
