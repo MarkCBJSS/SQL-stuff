@@ -12,7 +12,8 @@
 
 -- Query 4: Which designation has most number of employees
 
--- Every derived table must have its own alias
+-- Max(count(*)) did not work in MySQL, hence the changes below
+-- Though it appears redundant, every derived table must have its own alias
 select designation as "Designation", count(*) as "Count"
 from employee
 group by designation
